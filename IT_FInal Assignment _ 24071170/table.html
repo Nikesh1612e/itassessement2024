@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Animals</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .favorites {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .animal-card {
+      background-color: #fefefe;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .animal-card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .animal-card h3 {
+      margin: 15px 0 5px;
+    }
+
+    .animal-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="table.html">My Favorite Animals</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>My Favorite Animals 🐾</h1>
+    <section class="favorites">
+      <div class="animal-card">
+        <img src="images/dog.jpeg" />
+        <h3>Dog</h3>
+        <p>Loyal, playful, and always ready to brighten your day. My best companion.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="images/leopard.jpeg" />
+        <h3>Leopard</h3>
+        <p>Agile, powerful, and mysterious. A master of stealth and beauty in motion.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="images/Lion.jpeg" />
+        <h3>Lion</h3>
+        <p>The king of the jungle — powerful, noble, and courageous.</p>
+      </div>
+
+      <div class="animal-card">
+        <img src="images/Wolf.jpeg" />
+        <h3>Wolf</h3>
+        <p>Strong, social, and fiercely loyal. A symbol of unity and wild spirit.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Animal Lover Portfolio | Nikesh Maharjan | nikeshmaharjan0j@gmail.com</p>
+    <p>© 2025 All Rights Reserved</p>
+  </footer>
+</body>
+</html>
